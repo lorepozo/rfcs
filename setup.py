@@ -15,7 +15,7 @@ setup(
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'Intended Audience :: Science/Research'
+        'Intended Audience :: Science/Research',
         'Intended Audience :: Telecommunications Industry',
         'Topic :: Communications',
         'Topic :: Documentation',
@@ -38,7 +38,7 @@ setup(
     install_requires=['beautifulsoup4', 'requests'],
     entry_points={
         'console_scripts': [
-            rfcs=rfcs.rfcs:main
+            'rfcs=rfcs.rfcs:main'
         ],
     }
 )
